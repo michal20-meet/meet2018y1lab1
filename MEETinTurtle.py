@@ -1,0 +1,41 @@
+import turtle
+
+#draw the m:
+turtle.penup()
+turtle.goto(-200,-100)
+turtle.pendown()
+turtle.goto(-200,-100+200)
+turtle.goto(-200+50,-100)
+turtle.goto(-200+100,-100+200)
+turtle.goto(-200+100,-100)
+turtle.penup()
+
+#draw the e:
+turtle.goto(-200+150,-100)
+turtle.pendown()
+turtle.goto(-200+150,-100+200)
+turtle.goto(-200+250,-100+200)
+turtle.penup()
+turtle.goto(-200+150,-100+100)
+turtle.pendown()
+turtle.goto(50,0)
+turtle.penup()
+turtle.goto(-50,-100)
+turtle.pendown()
+turtle.goto(50,-100)
+turtle.penup()
+
+#draw the other e:
+turtle.goto(100,-100)
+turtle.pendown()
+turtle.goto(100,100)
+turtle.goto(200,200)
+turtle.penup()
+turtle.goto(100,100)
+turtle.pendown()
+turtle.goto(200,100)
+turtle.penup()
+turtle.goto(100,-100)
+turtle.pendown()
+turtle.goto(200,-100)
+turtle.penup()
